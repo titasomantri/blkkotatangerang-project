@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down List</title>
+    <link rel="stylesheet" href="css/external.css">
+
+    <!--Belajar CSS-->
+    <style>
+        body {
+            background-image: url(../blkkotatangerang/gambar/galaxy-background-3000.jpeg);
+            background-size: cover;
+            font-family: 'Segoe UI';
+            color: whitesmoke;
+
+        }
+         a {
+            background-color: whitesmoke;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="navigasi">
+        <h3>Daftar Links</h3>
+        <a href="tugas6tita.html">Link 1</a>
+        <a href="tugas5tita.html">Link 2</a>
+        <a href="tugas4tita.html">Link 3</a>
+        <a href="tugas3tita.html">Link 4</a>
+    </div>
+
+    <h4 style="color: whitesmoke;">Pilih Cluster:</h4>
+    <form>
+        <select name="Cluster">
+            <option value="Cibodas">Cibodas</option>
+            <option value="Bekasi">Bekasi</option>
+            <option value="Tangerang City">Tangerang City</option>
+            <option value="Summarecon Bekasi">Summarecon Bekasi</option>
+            <option value="Morizen">Morizen</option>
+        </select>
+        <br /><br />
+        <input type="submit">
+    </form>
+
+    <h4 style="color: whitesmoke;">Isilah Form di bawah ini :</h4>
+    <!--Belajar Form. Form itu membuat formulis isian.-->
+    <form>
+        <p>First Name :</p>
+        <input type="text" name="firstname">
+        <br />
+
+        <p>Last Name :</p>
+        <input type="text" name="lastname">
+        <br />
+
+        <p>Username :</p>
+        <input type="text" name="username">
+        <br />
+
+        <p>Password :</p>
+        <input type="password" name="username">
+        <br />
+
+        <p>Domisili :</p>
+        <input type="radio" name="domisili" value="Tangerang">Tangerang
+        <br />
+
+        <input type="radio" name="domisili" value="Jakarta">Jakarta
+        <br />
+
+        <input type="radio" name="domisili" value="Bekasi">Bekasi
+        <br />
+
+        <p>Senang dengan aktivitas anda :</p>
+
+        <input type="checkbox" name="aktivitas" value="mood">Happy
+        <br />
+
+        <input type="checkbox" name="aktivitas" value="mood">Very happy
+        <br /><br />
+
+        <p>Tanggal Lahir :</p>
+        <input type="date" name="birthday" min="1945-01-02">
+        <br /><br />
+        <input type="submit">
+
+        <!--BELAJAR HTML BUTTON-->
+
+        <!--Panggil Simbol/Tanda CLASS setelah elemen-->
+        <p class="p0">Silahkan Klik</p>
+        <button type="button" onclick="alert('Tombol sudah ditekan')">Click Me!</button>
+
+        <!--Panggil Simbol/Tanda ID setelah elemen-->
+        <p id="h0">Silahkan klik button dibawah ini :</p>
+        <button type="button" onclick="alert('Tombol sudah ditekan')">Click disini!</button>
+
+
+    </form>
+</body>
+</html>

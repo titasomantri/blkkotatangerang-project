@@ -1,0 +1,22 @@
+body {
+    background-image: url(../gambar/galaxy-background-3000.jpeg);
+    background-size: cover;
+    font-family: 'Segoe UI';
+    color: black;
+
+}
+
+p{
+    font-size: 10pt;
+    font-family: 'Segoe UI';
+}
+
+/*CLASS diwakilkan oleh tanda titik (.)*/
+.p0{
+    color: aqua;
+}
+
+/*ID diwakilkan oleh tanda pagar (#)*/
+#h0{
+    font-style: italic;
+}

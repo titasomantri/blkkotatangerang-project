@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS, ID, DAN JAVASCRIPT</title>
+    <link rel="stylesheet" href="css/external2.css">
+    <style>
+         a {
+            background-color: aqua;
+        }
+    </style>
+<body>
+    <!--Panggil Simbol/Tanda CLASS setelah elemen-->
+   <center>
+      <p class="p0" style="font-size: 25pt; font-family: Courier New;">Studi: Begini Cara Negara Berkembang Naikkan Kualitas Pendidikan</p>
+   </center>
+   <!--Panggil Simbol/Tanda ID setelah elemen-->
+
+   <div class="navigasi">
+    <h3>Daftar Links</h3>
+    <a href="tugas6tita.html" style="color: black;">Link 1</a>
+    <a href="tugas5tita.html" style="color: black;">Link 2</a>
+    <a href="tugas4tita.html" style="color: black;">Link 3</a>
+    <a href="tugas3tita.html" style="color: black;">Link 4</a>
+    </div>
+
+       <p id="h1">Siswa di negara-negara maju meraih skor Programme for International Student Assessment (PISA) 2022 di atas rata-rata. Singapura dan Estonia, contohnya. Negara-negara ini meningkatkan kualitas pendidikannya dengan reformasi pendidikan berbasis teknologi sejak 1990-an.</p>
+       <p id="h2">Sementara itu, terdapat kesenjangan relatif besar antara negara maju dan negara berkembang untuk melaksanakan reformasi pendidikan berbasis teknologi. Lebih banyak sumber daya, pengetahuan, dan keterampilan di sisi negara maju jadi salah satu sebabnya.</p>
+       <p id="h3">Reformasi pendidikan berbasis teknologi di negara-negara maju mengedepankan kualitas, efisiensi, serta kesetaraan dan inklusi. Dalam hal kesetaraan dan inklusi, kelompok pelajar maupun pendidik yang kurang beruntung diberi akses ke perangkat dan sumber daya. Negara juga menyediakan platform pembelajaran digital nasional.</p>
+       <button onclick="function1()">Silakan Klik!</button>
+       <p id="element1">Selamat Datang</p>
+
+<script>
+
+    function function1 () {
+        document.getElementById("element1").innerHTML="Hello World!";
+    }
+
+</script>
+   
+
+    <!--Belajar Javascript Lampu-->
+    <p>Apa yang dapat dilakukan Javascript?</p>
+    <p>Javascript dapat mengubah nilai atribut HTML.</p>
+    <p>Dalam hal ini Javascript mengubah nilai atribut src (source) suatu gambar.</p>
+    <button onclick="document.getElementById('mylamp').src='gambar/pic_bulbon.gif'">Lampu Menyala</button>
+    <img id="mylamp" src="gambar/pic_bulboff.gif" style="width: 100px;" />
+    <button onclick="document.getElementById('mylamp').src='gambar/pic_bulboff.gif'">Lampu Mati</button>
+
+</body>
+</html>
